@@ -21,21 +21,21 @@ android {
         debug {
             // 可能测试环境和正式环境分离 到时候再扩展吧
             buildConfigField "String", "HOTFIX_SERVER_URL", "\"https://api.bmob.cn/1/functions/\""
-            buildConfigField "String", "REST_API_KEY", "\"02ab887dd4c57015d8e346b5a728c569\""
-            buildConfigField "String", "BMOB_APPLICATION_ID", "\"960a7aa0e24065f4804242fb1e64a7f3\""
-            buildConfigField "String", "ACCESS_ID", "\"LTAI4Fx9ecT1eH86xzRKt2Yc\""
-            buildConfigField "String", "BUCK_NAME", "\"sdkhotfix-app\""
-            buildConfigField "String", "SECRET_KEY", "\"JtMMOLEtwxTZe31soVgKGpVbwovUP8\""
-            buildConfigField "String", "END_POINT", "\"https://oss-cn-shenzhen.aliyuncs.com\""
+            buildConfigField "String", "REST_API_KEY", "\"2149f9ed73da031b4c634ade8e7bc734\""
+            buildConfigField "String", "BMOB_APPLICATION_ID", "\"613232ee99c104c1195300793d76ce91\""
+            buildConfigField "String", "ACCESS_ID", "\"LTAI5tSbr2LbTi812sacNnVe\""
+            buildConfigField "String", "BUCK_NAME", "\"l-sdk\""
+            buildConfigField "String", "SECRET_KEY", "\"EcTbjITCkWyvVpEmGscVoW4aBkdwXm\""
+            buildConfigField "String", "END_POINT", "\"https://oss-cn-beijing.aliyuncs.com\""
         }
         release {
             buildConfigField "String", "HOTFIX_SERVER_URL", "\"https://api.bmob.cn/1/functions/\""
-            buildConfigField "String", "REST_API_KEY", "\"02ab887dd4c57015d8e346b5a728c569\""
-            buildConfigField "String", "BMOB_APPLICATION_ID", "\"960a7aa0e24065f4804242fb1e64a7f3\""
-            buildConfigField "String", "ACCESS_ID", "\"LTAI4Fx9ecT1eH86xzRKt2Yc\""
-            buildConfigField "String", "BUCK_NAME", "\"sdkhotfix-app\""
-            buildConfigField "String", "SECRET_KEY", "\"JtMMOLEtwxTZe31soVgKGpVbwovUP8\""
-            buildConfigField "String", "END_POINT", "\"https://oss-cn-shenzhen.aliyuncs.com\""
+            buildConfigField "String", "REST_API_KEY", "\"2149f9ed73da031b4c634ade8e7bc734\""
+            buildConfigField "String", "BMOB_APPLICATION_ID", "\"613232ee99c104c1195300793d76ce91\""
+            buildConfigField "String", "ACCESS_ID", "\"LTAI5tSbr2LbTi812sacNnVe\""
+            buildConfigField "String", "BUCK_NAME", "\"l-sdk\""
+            buildConfigField "String", "SECRET_KEY", "\"EcTbjITCkWyvVpEmGscVoW4aBkdwXm\""
+            buildConfigField "String", "END_POINT", "\"https://oss-cn-beijing.aliyuncs.com\""
             minifyEnabled isProguard.toBoolean()
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
@@ -63,7 +63,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
-    compile 'com.android.support:appcompat-v7:27.1.1'
+//    compile 'com.android.support:appcompat-v7:27.1.1'
     testCompile 'junit:junit:4.12'
 
     compile 'com.tencent:mmkv:1.0.10'
